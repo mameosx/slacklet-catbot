@@ -3,6 +3,7 @@
 	- 現状はMainクラス内だけですべて実行している為、時間をかけて細分化していきます。
 	- [こちらのサイトを参考に作成しました。]( https://qiita.com/riversun/items/25f64f285699223a992d )
 
+<<<<<<< HEAD
 ## 概要
  `
 	- 疲れたと入力すると癒しサイトを紹介（List）
@@ -43,6 +44,30 @@
 	11. Catbot.jar84行目に指定のチャンネル名を記載し実行。
 	 `
 	 *データベースを使わない場合、(Java:56～80)(Java:167～170)のコメントアウトを解除。(Java:173～207)をコメントアウト。*
+=======
+It is licensed under MIT.
+
+## Eclipseへのインポートと実行
+
+Eclipseへのimport
+
+``` 
+1. Select File>Import>Git - Projects from Git
+2. Clone URI
+3. set clone URI to https://github.com/riversun/slacklet-examples.git
+4. 適宜[NEXT]を押していく
+5. "Import as general project"をチェックして、"finish" を押す
+```
+
+## credentialsをセットする
+
+```
+1. プロジェクト上で、右クリック
+2. Configure>Convert to Maven project
+3. (これでmaven projectとしてEclipseに読み込まれます)
+4. API Token for BOT をセット
+```
+>>>>>>> 313bf9ab3952afe7c5c2081e07af5ba89875af2f
  
 
 ## 今後の課題
