@@ -25,11 +25,11 @@
 *先に参考サイトのご確認をお願いいたします。*   
 **ディレクトリー＝ファイル**  
 
-1.「ファイル」→「インポート」クリック。
-2.「Git」→「Gitからプロジェクト」を選択し次へ。
-3.「クローンURL」を選択し次へ。
+1. 「ファイル」→「インポート」クリック。
+2. 「Git」→「Gitからプロジェクト」を選択し次へ。
+3. 「クローンURL」を選択し次へ。
 4. URLに [https://github.com/mameosx/slacklet-catbot]( https://github.com/mameosx/slacklet-catbot )を入力し次へ。
-5.「master」にチェックが入っていることを確認し次へ。
+5. 「master」にチェックが入っていることを確認し次へ。
 6. ディレクトリーを変更しない場合はそのまま次へ。
 7. プロジェクトがEclipse上に表示されたのち、src/main/java直下に**credentials.properties**というファイルを作り、以下のように取得したapi tokenをセットします。slack.bot_api_token=xoxb-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 8. 各jarファイルをダウンロードしてくる。
